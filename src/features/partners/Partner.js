@@ -2,7 +2,8 @@
 
 const Partner = ({partner}) => {
     if (partner) {
-        const [image, name, description] = partner;
+        
+        const {image, name, description} = partner;
         return (
         < >
             <img src={image} alt={name} style={{ width: '150px' }}/>

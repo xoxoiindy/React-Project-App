@@ -1,13 +1,13 @@
-import {PartnersList }from '../features/partners/PartnersList';
-import React from 'react'
-import {Col, Row, Container, Card, CardBody, CardHeader} from 'reactstrap'
+import PartnersList from '../features/partners/PartnersList';
+import React from 'react';
+import {Col, Row, Container, Card, CardBody, CardHeader} from 'reactstrap';
 import SubHeader from '../components/SubHeader';
 
 
 const AboutPage = () => {
     return (
         <Container>
-                <SubHeader current='About Us'/>
+            <SubHeader current='About'/>
                 
                 <Row className='row-content'>
                     <Col sm='6'>
@@ -45,7 +45,7 @@ const AboutPage = () => {
                     <Col sm='6'>
                         <Card className='bg-light mt-3'>
                             <CardBody  className='blockquote'>
-                                <p> I will not follow where the path may lead but I
+                                <p> I will not follow where the path may lead, but I
                                     will go where there is no path, and I will leave
                                     a trail.
                                 </p>
@@ -61,17 +61,15 @@ const AboutPage = () => {
                     </Col>
                 </Row>
                 <Row className='row-content'>
-                    <AboutPage/>
-                        <Col xs='12'>
-                            <h3>Community Partners</h3>
+                    <Col xs='12'>
+                        <h3>Community Partners</h3>
                         
-                        </Col>
-                        <PartnersList/>
-
+                    </Col>
+                    <PartnersList/>
                 </Row>
         </Container>
         
-    );
-};
+    )
+}
 
 export default AboutPage;
