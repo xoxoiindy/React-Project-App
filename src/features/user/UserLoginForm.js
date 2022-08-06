@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { setCurrentUser, selectCurrentUser } from './userSlice';
 import {Button, Modal, ModalHeader, ModalBody, FormGroup, Label} from 'reactstrap';
 import { Formik, Field, Form, ErrorMessage } from 'formik';
-import defaultAvatar from '../../app/assets/img/unicorn.png';
+import  defaultAvatar  from '../../app/assets/img/unicorn.png';
 import { validateUserLoginForm } from '../../utils/validateUserLoginForm';
 
 const UserLoginForm = () => {
