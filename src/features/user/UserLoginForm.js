@@ -7,7 +7,7 @@ import  defaultAvatar  from '../../app/assets/img/unicorn.png';
 import { validateUserLoginForm } from '../../utils/validateUserLoginForm';
 
 const UserLoginForm = () => {
-    const [loginModalOpen, setLoginModalOpen] = useState(false)
+    const [loginModalOpen, setLoginModalOpen] = useState(false);
 
     const currentUser = useSelector(selectCurrentUser);
 
@@ -62,8 +62,8 @@ const UserLoginForm = () => {
                             <FormGroup>
                                 <Label htmlFor='username'> Username
                                     <Field 
-                                        id = 'Username'
-                                        name = 'Username'
+                                        id = 'username'
+                                        name = 'username'
                                         placeholder = 'Username'
                                         className = 'form-control'
 
@@ -78,8 +78,8 @@ const UserLoginForm = () => {
                             <FormGroup>
                                 <Label htmlFor='password'> Password
                                     <Field
-                                        id ='Password'
-                                        name ='Password'
+                                        id ='password'
+                                        name ='password'
                                         placeholder = 'Password'
                                         className = 'form-control'
                                     
