@@ -23,7 +23,7 @@ const UserLoginForm = () => {
         dispatch(setCurrentUser(currentUser));
         setLoginModalOpen(false);
     }
-    return(
+    return (
         <>
             <span className='navbar-text ml-auto'>
                 {currentUser ? (
@@ -62,8 +62,8 @@ const UserLoginForm = () => {
                             <FormGroup>
                                 <Label htmlFor='username'> Username
                                     <Field 
-                                        id = 'username'
-                                        name = 'username'
+                                        id = 'Username'
+                                        name = 'Username'
                                         placeholder = 'Username'
                                         className = 'form-control'
 
@@ -78,8 +78,8 @@ const UserLoginForm = () => {
                             <FormGroup>
                                 <Label htmlFor='password'> Password
                                     <Field
-                                        id ='password'
-                                        name ='password'
+                                        id ='Password'
+                                        name ='Password'
                                         placeholder = 'Password'
                                         className = 'form-control'
                                     
