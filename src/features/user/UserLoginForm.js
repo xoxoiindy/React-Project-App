@@ -61,35 +61,36 @@ const UserLoginForm = () => {
                         <Form>
                             <FormGroup>
                                 <Label htmlFor='username'> Username
-                                    <Field 
+                                </Label>
+                                
+                                <Field 
                                         id = 'username'
                                         name = 'username'
                                         placeholder = 'Username'
                                         className = 'form-control'
 
-                                    />
-                                    <ErrorMessage
-                                        name='username'>
-                                        {(msg) => <p className='text-danger'>{msg}</p>}  
-                                    </ErrorMessage>
-                                </Label>
+                                />
+                                <ErrorMessage
+                                    name='username'>
+                                    {(msg) => <p className='text-danger'>{msg}</p>}  
+                                </ErrorMessage>
                             </FormGroup>
                             
                             <FormGroup>
                                 <Label htmlFor='password'> Password
-                                    <Field
+                                </Label>
+                                
+                                <Field
                                         id ='password'
                                         name ='password'
                                         placeholder = 'Password'
                                         className = 'form-control'
                                     
-                                    />
-                                    <ErrorMessage
-                                        name='password'>
-                                        {(msg) => <p className='text-danger'>{msg}</p>}  
-                                    </ErrorMessage>
-
-                                </Label>
+                                />
+                                <ErrorMessage
+                                    name='password'>
+                                    {(msg) => <p className='text-danger'>{msg}</p>}  
+                                </ErrorMessage>
                                 
                             </FormGroup>
                             <Button type='submit' color='primary'> Login </Button>
