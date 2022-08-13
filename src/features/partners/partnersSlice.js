@@ -1,5 +1,5 @@
 import { createSlice, createAsyncThunk  } from '@reduxjs/toolkit';
-//import { PARTNERS } from '../../app/shared/oldData/PARTNERS';
+// import { PARTNERS } from '../../app/shared/oldData/PARTNERS';
 import { baseUrl } from '../../app/shared/baseUrl';
 import { mapImageURL } from '../../utils/mapImageURL';
 
